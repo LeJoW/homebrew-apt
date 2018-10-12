@@ -4,6 +4,8 @@ class Pdftk < Formula
     url "http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/pdftk_server-2.02-mac_osx-10.11-setup.pkg"
     sha256 "c33cf95151e477953cd57c1ea9c99ebdc29d75f4c9af0d5f947b385995750b0c"
   
+    depends_on :macos => :lion
+
     def install
         #args = %W[
         #    --prefix=#{prefix}
