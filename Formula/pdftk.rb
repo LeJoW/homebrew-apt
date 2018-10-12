@@ -2,7 +2,11 @@ require 'formula'
 
 class PkgExtract < CurlDownloadStrategy
   def stage
+<<<<<<< HEAD
     system "echo ls"
+=======
+    system "echo rea"
+>>>>>>> 0e9554a416e9b91c11db7461fccfb7df3aa7cce6
     #safe_system '/usr/bin/xar', '-xf', @tarball_path
     #chdir
     #safe_system 'mv *.pkg/Payload Payload.gz'
