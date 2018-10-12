@@ -22,7 +22,7 @@ class Pdftk < Formula
         #system "./bootstrap" if build.head?
         #system "./configure", *args
         #system "make", "install"
-        safe_system "/usr/bin/xar -f", @tarball_path
+        safe_system "/usr/bin/xar", "-f", @tarball_path
     end
   
     test do
